@@ -6,7 +6,7 @@ const app = Fastify({
 })
 
 app.get('/', (request, response) => {
-  response.send('API is online, baby, less gooo!')
+  response.send('API is online, baby!')
 })
 
 app.register((appReference, _, done) => {
