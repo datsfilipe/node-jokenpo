@@ -4,7 +4,7 @@
   "description": "Node.js back-end for a jokenpo react guess game.",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpileOnly --ignore-watch node_modules src/server.ts",
+    "dev": "ts-node-dev --respawn --ignore-watch node_modules src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
     "test": "test:ui"
