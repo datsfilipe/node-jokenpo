@@ -7,13 +7,16 @@
     "dev": "ts-node-dev --respawn --ignore-watch node_modules src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "test": "test:ui"
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
   },
   "keywords": [],
   "author": "datsfilipe",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.11.10",
+    "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
     "@vitest/ui": "^0.25.3",
