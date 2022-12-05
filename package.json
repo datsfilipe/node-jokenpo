@@ -30,9 +30,12 @@
   "dependencies": {
     "@prisma/client": "^4.7.1",
     "@trpc/server": "^10.4.3",
-    "axios": "^1.2.0",
+    "dotenv": "^16.0.3",
     "fastify": "^4.10.2",
     "socket.io": "^4.5.4",
     "zod": "^3.19.1"
+  },
+  "engines": {
+    "node": "v18.12.1"
   }
 }
