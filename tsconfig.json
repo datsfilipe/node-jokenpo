@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2020",
+    "target": "esnext",
     "module": "commonjs",
-    "lib": ["es2020"],
+    "lib": ["esnext"],
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -15,9 +15,6 @@
     "resolveJsonModule": true,
     "moduleResolution": "node",
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    },
     "outDir": "dist",
     "rootDir": "src",
     "typeRoots": ["node_modules/@types", "src/types"]
