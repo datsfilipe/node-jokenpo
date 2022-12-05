@@ -1,3 +1,5 @@
+import 'dotenv/config'
+
 import Fastify from 'fastify'
 import { routes } from './routes'
 
